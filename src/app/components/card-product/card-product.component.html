@@ -1,0 +1,196 @@
+
+<div class="container-produto">
+    <li *ngFor="let producto of productos" class="container-item ">
+        <div class="item-producto">
+            <div>
+                <img [src]="producto.img" alt="" class="img-producto">
+            </div>
+            <div class="container-description">
+                <h2 class="nombre-producto">{{producto.nombre}}</h2>
+        
+                <span class="precio-producto"><b> {{producto.precio}}</b></span>
+    
+                <span class="cuotas-producto">en {{producto.cuotas}}X <span class="cuota-precio">{{producto.cuotaprecio}}</span> </span>
+        </div>
+        </div>
+    </li>
+   
+      
+  </div>
+
+
+
+
+
+
+
+<!-- 
+<li class="container-item ">
+    <div class="item-producto">
+        <div>
+            <img src="../../../assets/img/producto/cintadoble.webp" alt="" class="img-producto">
+        </div>
+        <div class="container-description">
+            <h2 class="nombre-producto">Cinta Doble Contacto Faz 3m de 19mmx5mts</h2>
+    
+            <span class="precio-producto"><b> $ 30.303</b></span>
+
+            <span class="cuotas-producto">en 12x $ 4.000 </span>
+    </div>
+    </div>
+</li>
+<li class="container-item ">
+    <div class="item-producto">
+        <div>
+            <img src="../../../assets/img/producto/sikkens.webp" alt="" class="img-producto">
+        </div>
+        <div class="container-description">
+            <h2 class="nombre-producto">Sikkens Am Plus Reducer Medium 5 Lt</h2>
+    
+            <span class="precio-producto"><b> $ 30.303</b></span>
+
+            <span class="cuotas-producto">en 12x $ 4.000 </span>
+    </div>
+    </div>
+</li>
+<li class="container-item ">
+    <div class="item-producto">
+        <div>
+            <img src="../../../assets/img/producto/sikkens.webp" alt="" class="img-producto">
+        </div>
+        <div class="container-description">
+            <h2 class="nombre-producto">Sikkens Am Plus Reducer Medium 5 Lt</h2>
+    
+            <span class="precio-producto"><b> $ 30.303</b></span>
+
+            <span class="cuotas-producto">en 12x $ 4.000 </span>
+    </div>
+    </div>
+</li>
+<li class="container-item ">
+    <div class="item-producto">
+        <div>
+            <img src="../../../assets/img/producto/sikkens.webp" alt="" class="img-producto">
+        </div>
+        <div class="container-description">
+            <h2 class="nombre-producto">Sikkens Am Plus Reducer Medium 5 Lt</h2>
+    
+            <span class="precio-producto"><b> $ 30.303</b></span>
+
+            <span class="cuotas-producto">en 12x $ 4.000 </span>
+    </div>
+    </div>
+</li>
+<li class="container-item ">
+    <div class="item-producto">
+        <div>
+            <img src="../../../assets/img/producto/PastaFina.webp" alt="" class="img-producto">
+        </div>
+        <div class="container-description">
+            <h2 class="nombre-producto">Pasta De Pulir Fina 1 Kg Sherwin Williams Autos</h2>
+    
+            <span class="precio-producto"><b> $ 30.303</b></span>
+
+            <span class="cuotas-producto">en 12x $ 4.000 </span>
+    </div>
+    </div>
+</li>
+<li class="container-item ">
+    <div class="item-producto">
+        <div>
+            <img src="../../../assets/img/producto/3d Carnauba.webp" alt="" class="img-producto">
+        </div>
+        <div class="container-description">
+            <h2 class="nombre-producto">3d Carnauba Paste Wax Cera En Pasta 330ml3d 
+                </h2>
+    
+            <span class="precio-producto"><b> $ 30.303</b></span>
+
+            <span class="cuotas-producto">en 12x $ 4.000 </span>
+    </div>
+    </div>
+</li>
+<li class="container-item ">
+    <div class="item-producto">
+        <div>
+            <img src="../../../assets/img/producto/Masilla  Zeocar.webp" alt="" class="img-producto">
+        </div>
+        <div class="container-description">
+            <h2 class="nombre-producto">Masilla Poliester Zeocar X 4 Kg</h2>
+    
+            <span class="precio-producto"><b> $ 30.303</b></span>
+
+            <span class="cuotas-producto">en 12x $ 4.000 </span>
+    </div>
+    </div>
+</li>
+<li class="container-item ">
+    <div class="item-producto">
+        <div>
+            <img src="../../../assets/img/producto/sikkens.webp" alt="" class="img-producto">
+        </div>
+        <div class="container-description">
+            <h2 class="nombre-producto">Sikkens Am Plus Reducer Medium 5 Lt</h2>
+    
+            <span class="precio-producto"><b> $ 30.303</b></span>
+
+            <span class="cuotas-producto">en 12x $ 4.000 </span>
+    </div>
+    </div>
+</li>
+<li class="container-item ">
+    <div class="item-producto">
+        <div>
+            <img src="../../../assets/img/producto/autobase.webp" alt="" class="img-producto">
+        </div>
+        <div class="container-description">
+            <h2 class="nombre-producto">Automotor Sikkens Autobase Bicapa N°611 Azul Artico 1 Lt</h2>
+    
+            <span class="precio-producto"><b> $ 30.303</b></span>
+
+            <span class="cuotas-producto">en 12x $ 4.000 </span>
+    </div>
+    </div>
+</li>
+<li class="container-item ">
+    <div class="item-producto">
+        <div>
+            <img src="../../../assets/img/producto/sikkens.webp" alt="" class="img-producto">
+        </div>
+        <div class="container-description">
+            <h2 class="nombre-producto">Sikkens Am Plus Reducer Medium 5 Lt</h2>
+    
+            <span class="precio-producto"><b> $ 30.303</b></span>
+
+            <span class="cuotas-producto">en 12x $ 4.000 </span>
+    </div>
+    </div>
+</li>
+<li class="container-item ">
+    <div class="item-producto">
+        <div>
+            <img src="../../../assets/img/producto/primer.webp" alt="" class="img-producto">
+        </div>
+        <div class="container-description">
+            <h2 class="nombre-producto">Primer Multiuse Filler Hs Light Grey - 3lt Sikkens + Catal</h2>
+    
+            <span class="precio-producto"><b> $ 30.303</b></span>
+
+            <span class="cuotas-producto">en 12x $ 4.000 </span>
+    </div>
+    </div>
+</li>
+<li class="container-item ">
+    <div class="item-producto">
+        <div>
+            <img src="../../../assets/img/producto/sikkens.webp" alt="" class="img-producto">
+        </div>
+        <div class="container-description">
+            <h2 class="nombre-producto">Sikkens Am Plus Reducer Medium 5 Lt</h2>
+    
+            <span class="precio-producto"><b> $ 30.303</b></span>
+
+            <span class="cuotas-producto">en 12x $ 4.000 </span>
+    </div>
+    </div>
+</li> -->

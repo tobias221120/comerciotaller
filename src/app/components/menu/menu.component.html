@@ -1,0 +1,18 @@
+
+<div class="menu"><img src="../../../assets/img/icons8-menú-50.png" alt="" (click)="mostrarMenu()" ></div>
+<div *ngIf="activeMenu" class="menu-responsi">
+    <ul class="item-menu">
+        <li class="nav-item"><a routerLink="/">Home</a></li>
+        <li class="nav-item"><a routerLink="/productos">Productos</a></li>
+       
+    </ul>
+
+</div>
+<div *ngIf="!activeMenu" class="menu-entero">
+    <li class="nav-item"><a routerLink="/">Home</a></li>
+    <li class="nav-item"><a routerLink="/productos">Productos</a></li>
+
+
+    
+   
+</div>

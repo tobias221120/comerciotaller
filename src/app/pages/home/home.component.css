@@ -1,0 +1,171 @@
+.img-fondo{
+    width: 1902px;
+    height: 600px;
+
+}
+.descripcion-texto{
+    height: 300px;
+    width: 400px;
+    color: rgb(255, 255, 255);
+    font-family: '', 'Arial Narrow',sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    
+}
+.conteiner-texto{
+    position: absolute;
+    top: 200px;
+    left: 600px;
+   
+   
+    
+}
+.title{
+    width: 300px;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 750px;
+    margin-top: 15px;
+}
+.text-title:hover{
+ color: rgb(148, 35, 35);
+}
+.container-trabajo{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+
+}
+.item{
+    margin-left: 30px;
+    border-radius: 10px;
+    padding: 30px;
+    border: 1px solid #fd0101;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    
+}
+.item:hover {
+    box-shadow: 0 4px 8px rgba(187, 92, 92, 0.8); 
+}
+.item-img{
+    border-radius: 6px;
+width: 300px;
+height: 250px;
+overflow: hidden;
+}
+.titulo-texto{
+    color: white;
+text-align: center;
+margin-top: 20px;
+font-size: 25px;
+}
+
+.continer-card{display: flex;
+    justify-content: space-around;
+}
+.text-contacto{
+    font-size: 20px;
+    color: white;
+}
+.text-subcontacto{
+    color: white;
+    font-size: 14px;
+
+}
+.list-contacto{
+    list-style: none;
+}
+.list-contacto li{
+    color: white;
+}
+.card{
+    border: 2px solid #ff0000;
+    width: 1100px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.form-label{
+    color: white;
+}
+
+
+.btn{
+    margin-top: 10px;
+}
+
+
+
+@media (max-width: 420px) {
+    .img-fondo{
+        width: auto;
+        height: 450px;
+        overflow: hidden;
+    }
+    .container-fondo{
+        overflow: hidden;
+    }
+    .container-trabajo{
+        flex-direction: column;
+        align-items: center;
+    }
+    .item{
+        width: 250px;
+        padding-left: 15px;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+    .item-img{
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+    }
+    .conteiner-texto{
+        left: 10px;
+        top: 220px;
+        margin-top: 20px;
+    }
+    .descripcion-texto{
+        font-size: 14px;
+        height: 150px;
+    }
+    .title{
+        margin-top: 15px;
+        left: 60px;
+    }
+  }
+
+  @media (max-width: 360px) {
+
+    .title{
+        left: 40px;
+    }
+    .descripcion-texto{
+        font-size: 14px;
+        width: 350px;
+    }
+    .item{
+        margin-left:0;
+    }
+    .img-fondo{
+        width: 360px;
+    }
+    .item-img{
+    margin-left: 10px;
+        }
+
+
+    .continer-card{
+    width: 350px;
+    margin-left: 5px;
+    }
+    .card{
+        flex-direction: column-reverse;
+    }
+  }

@@ -1,0 +1,60 @@
+[
+    { "nombre": "Pasta De Pulir Fina 1 Kg Sherwin Williams Autos", 
+    "precio": 30.303, 
+    "img": "../../../assets/img/producto/PastaFina.webp",
+    "cuotas": 12 , 
+    "cuotaprecio":"$ 4000"},
+
+    { "nombre": "Sikkens Am Plus Reducer Medium 5 Lt", 
+    "precio": "45.990",
+     "img": "../../../assets/img/producto/sikkens.webp", 
+     "cuotas": 6 ,
+      "cuotaprecio":"$ 5.700"},
+
+    { "nombre": "Primer Multiuse Filler Hs Light Grey - 3lt Sikkens + Catal",
+     "precio": "20.500", 
+     "img": "../../../assets/img/producto/primer.webp",
+      "cuotas": 3, 
+      "cuotaprecio":"$ 7.000" },
+    { "nombre": "Masilla Poliester Zeocar X 4 Kg", 
+    "precio": "30.300",
+     "img": "../../../assets/img/producto/Masilla  Zeocar.webp",
+      "cuotas": 12 ,
+       "cuotaprecio":"$ 3.500"},
+
+    { "nombre": "Automotor Sikkens Autobase Bicapa N°611 Azul Artico 1 Lt",
+     "precio": "45.993", 
+     "img": "../../../assets/img/producto/autobase.webp", 
+     "cuotas": 6 , 
+     "cuotaprecio":"$ 8000" },
+    { "nombre": "3d Carnauba Paste Wax Cera En Pasta 330ml3d ", 
+    "precio": "20.500", 
+    "img": "../../../assets/img/producto/3d Carnauba.webp", 
+    "cuotas": 3 , 
+    "cuotaprecio":"$ 4000"},
+    { "nombre": "Filpint Filtro Descartable Para Pintura - Caja X 50u 10/20l",
+     "precio": "30.303",
+      "img": "../../../assets/img/producto/Filpint Filtro.webp", 
+      "cuotas": 12 , 
+      "cuotaprecio":"$ 4000"},
+
+
+    { "nombre": "Aditivo Anticrater",
+     "precio":"20.600", 
+     "img": "../../../assets/img/producto/Aditivo Anticrater lazzudor.webp", 
+     "cuotas": 6 , 
+     "cuotaprecio":"$ 3,000"},
+    { "nombre": "Aditivo Anticrater Trimas 1/4lts", 
+    "precio": "5.500", 
+    "img": "../../../assets/img/producto/Aditivo Anticrater Trimas.webp", 
+    "cuotas": 3, "cuotaprecio":"$ 1.950" },
+
+    { "nombre": "Miura Paño De Pulir - Con Cordón",
+     "precio":"14.300", 
+     "img": "../../../assets/img/producto/Miura Paño De Pulir - Con Cordón.webp",
+      "cuotas": 3 , "cuotaprecio":"$ 5.000"},
+
+    { "nombre": "Mameluco Descartable Respirable Deltaplus ", "precio": "18.993", "img": "../../../assets/img/producto/Mameluco Descartable Respirable Deltaplus.webp", "cuotas": 6 , "cuotaprecio":"$ 3.500" },
+    { "nombre": "3d Carnauba Paste Wax Cera En Pasta 330ml3d ", "precio": "8.500", "img": "../../../assets/img/producto/3d Carnauba.webp", "cuotas": 3 , "cuotaprecio":"$ 3.000"}
+    
+  ]

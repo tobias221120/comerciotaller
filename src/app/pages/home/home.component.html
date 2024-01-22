@@ -1,0 +1,108 @@
+<div>
+  <app-menu></app-menu>
+</div>
+<div class="container-fondo">
+<img src="../../../assets/img/tallerfondohome.jpg" alt=""class="img-fondo"></div>
+<div>
+
+</div>
+
+<div class="conteiner-texto">
+        
+        <p class="descripcion-texto">
+            En nuestro taller, no solo cuidamos autos, cuidamos historias. Cada vehículo tiene su propia narrativa, y estamos aquí para asegurarnos de que la tuya continúe siendo una historia de viajes seguros y experiencias inolvidables
+        </p>
+    
+</div> 
+<div class="title">
+      <h4 class="text-title"> Que Hacemos</h4> 
+    </div>
+<div class="container-trabajo">
+    
+    
+    <div class="item">
+      <img src="../../../assets/img/img-pintor.jpg" alt="Descripción de la imagen 1" class="item-img">
+      <div class="container-texto">
+        <h2 class="titulo-texto">Pintura </h2>
+      
+      </div>
+    </div>
+  
+    <div class="item">
+      <img src="../../../assets/img/mecanico-img.jpg" alt="Descripción de la imagen 2" class="item-img">
+      <div class="container-texto">
+        <h2 class="titulo-texto">Mecanica</h2>
+      </div>
+    </div>
+  
+    <div class="item">
+      <img src="../../../assets/img/chapista-img.jpg" alt="Descripción de la image" class="item-img">
+      <div class="container-texto">
+        <h2 class="titulo-texto">Chapa y Reparaciones</h2>
+        
+      </div>
+    </div>
+  </div>     
+
+
+ <app-carrusel></app-carrusel>
+
+
+  <div class="title">
+    <h4 class="text-title"> Contactanos</h4> 
+  </div>
+ 
+<div class="continer-card">
+  
+  <div class="card" >
+    <div class="contact-info p-3">
+      
+      <p class="text-contacto">¡Estamos aquí para ayudarte! Contáctanos para cualquier consulta.</p>
+      
+      <ul class="list-contacto">
+        <li>Email: info@loshermanos.com</li>
+        <li>Teléfono: +123 456 789</li>
+        <li>Dirección: Calle 111, argentina</li>
+      </ul>
+    </div>
+
+    <div class="card-body">
+      <form [formGroup]="formUser">
+          <div class="mb-2">
+             <label class="form-label">
+              
+                Nombre
+             </label>
+             <input type="text" formControlName="name" class="form-control" placeholder=" Ingrese su nombre">
+             <div class="alert alert-danger"[hidden]="name.valid || name.pristine " role="alert" >
+             El nombre es obligatorio
+            </div>
+            </div>
+          <div >
+            <label class="form-label">
+             Email
+            </label>
+            
+            <input type="email" formControlName="email" class="form-control" placeholder="Ingrese su email">
+           
+            <div class="alert alert-danger mt-2" [hidden]="email.valid || email.pristine" role="alert" >
+              <span *ngIf="email.errors?.['requied']">
+                El email debe ser valido
+              </span>
+             <span *ngIf="email.errors?.['email']">
+                El email es obligatorio 
+              </span>
+            </div>
+            
+            </div>
+         <button class="btn btn-primary"[disabled]="formUser.invalid" >
+          Enviar
+         </button>
+      </form>
+    </div>
+
+  </div>
+</div>
+
+
+<app-footer></app-footer>

@@ -1,0 +1,11 @@
+
+
+
+<div class="container-swiper">
+        <h2  class="swiper-title">Marcas con las que trabajamos </h2>
+<swiper-container class="mySwiper" autoplay-delay="2200"  space-between="30"
+    slides-per-view="3">
+    <swiper-slide *ngFor="let item of sliderData">   <img [src]="item.imagen" alt="" class="swiper-img"></swiper-slide>
+  
+  </swiper-container>
+  </div>

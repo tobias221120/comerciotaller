@@ -1,0 +1,23 @@
+
+<div  class="footer-container">
+    <div class="container-img">
+        
+        <h2 (click)="toggleSubtitulos()" class="info-footer"> {{masInformacion}}</h2>
+     
+    </div>
+    
+    <div *ngIf="mostrarSubtitulos" class="subtitulos-footer">
+        <div>
+            <p class="subtitulos-item">Como comprar</p>
+            <p class="subtitulos-item">Botón de arrepentimiento</p>
+            <p class="subtitulos-item">Sucursale</p>
+    </div>
+    
+    <div>
+        <p class="subtitulos-item">Cambios</p>
+        <p class="subtitulos-item">Envio y entrega</p>
+        <p class="subtitulos-item">Opciones de pago</p>
+    </div>
+    </div>
+</div>
+

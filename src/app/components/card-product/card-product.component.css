@@ -1,0 +1,94 @@
+.container-produto{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    border-radius: 4px;
+    width: 1000px;
+ 
+  
+  }
+  .img-producto{
+    width: 150px;
+    height: 150px; 
+    margin-top: 10px;
+    margin-left: 10px;
+
+  }
+  .container-item{
+    text-decoration: none;
+    list-style: none;
+    background-color: white;
+    border-bottom: 1px solid #b4b2b2;
+  }
+  .item-producto{
+    display: flex;
+  }
+  .container-description{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+
+  }
+  .nombre-producto{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 15px;
+  }
+  .precio-producto{
+    font-size: 24px;
+    margin-bottom: 10px;
+
+  }
+  .cuotas-producto{
+    font-size: 16px;
+  }
+
+  @media (max-width: 370px) {
+
+    .container-produto{
+      
+      width: 350px !important;
+      margin-left: 5px;
+    }
+    .img-producto{
+      width: 120px;
+      height: 120px;
+      margin-left: 5px;
+    }
+    .container-description{
+      margin-left: 20px;
+    }
+    .nombre-producto{
+      font-size: 14px;
+    }
+    .precio-producto{
+      font-size: 18px;
+    }
+    .cuotas-producto{
+      font-size: 13px;
+    }
+    }
+
+
+
+
+  @media (max-width: 430px) {
+
+  .container-produto{
+    left: 6px;
+    width: 400px;
+  }
+  .img-producto{
+    width: 120px;
+    height: 120px;
+  }
+  .nombre-producto{
+    font-size: 14px;
+  }
+  .precio-producto{
+    font-size: 18px;
+  }
+  .cuotas-producto{
+    font-size: 13px;
+  }
+  }
